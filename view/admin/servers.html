@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">Server List
-                <a href="{{ @URI }}/add" class="btn btn-default pull-right"><i class="fa fa-plus fa-fw"></i> Tambah</a>
+                <a href="{{ @URI }}/add" class="btn btn-default pull-right"><i class="fa fa-plus fa-fw"></i> Add</a>
             </h1>
         </div>
     </div>
@@ -20,13 +20,13 @@
                     </div>
                     <table class="table">
                         <tr>
-                            <td>Lokasi</td><td>{{ @server->country }}</td>
+                            <td>Location</td><td>{{ @server->country }}</td>
                         </tr>
                         <tr>
                             <td>Host</td><td>{{ @server->host }}</td>
                         </tr>
                         <tr>
-                            <td>Harga</td><td>{{ @server->price }}</td>
+                            <td>Price (RM)</td><td>{{ @server->price }}</td>
                         </tr>
                     </table>
                     <div class="panel-footer text-center">
