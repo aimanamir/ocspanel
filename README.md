@@ -24,22 +24,8 @@ Installation
 
 Gantikan
 
-cd /home/vps/public_html
-git init
-git remote add origin https://github.com/stevenindarto/OCSPanel.git
-git pull origin master
-
-chmod 777 /home/vps/public_html/config
-chmod 777 /home/vps/public_html/config/config.ini
-chmod 777 /home/vps/public_html/config/route.ini
+https://github.com/stevenindarto/OCSPanel.git
 
 dengan
 
-cd /home/vps/public_html
-git init
-git remote add origin https://github.com/aimanamir/ocspanel.git
-git pull origin master
-
-chmod 777 /home/vps/public_html/config
-chmod 777 /home/vps/public_html/config/config.ini
-chmod 777 /home/vps/public_html/config/route.ini
+https://github.com/aimanamir/ocspanel.git
