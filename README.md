@@ -20,4 +20,26 @@ Requirements
 
 Installation
 ------------
-* Debian: https://www.hostingtermurah.net/tutorial-install-ocs-panel-pada-vps/
+* Debian: https://sshkuat.blogspot.my/2017/06/tutorial-install-ocs-panel-2017.html?m=1
+
+Gantikan
+
+`cd /home/vps/public_html
+git init
+git remote add origin https://github.com/stevenindarto/OCSPanel.git
+git pull origin master
+
+chmod 777 /home/vps/public_html/config
+chmod 777 /home/vps/public_html/config/config.ini
+chmod 777 /home/vps/public_html/config/route.ini`
+
+dengan
+
+`cd /home/vps/public_html
+git init
+git remote add origin https://github.com/aimanamir/ocspanel.git
+git pull origin master
+
+chmod 777 /home/vps/public_html/config
+chmod 777 /home/vps/public_html/config/config.ini
+chmod 777 /home/vps/public_html/config/route.ini`
